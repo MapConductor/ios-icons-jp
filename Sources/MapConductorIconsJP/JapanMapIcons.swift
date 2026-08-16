@@ -4,46 +4,55 @@ import MapConductorIcons
 
 /// Map symbols from the jp pack. Selection is always explicit.
 public enum JapanMapIcons {
-    /// Japanese post office.
+    /// Japanese post office map symbol.
     public static let postOffice = MapIconGlyph(
         id: "jp.post_office",
         commands: [
-            .moveTo(CGPoint(x: 4, y: 4)),
-            .lineTo(CGPoint(x: 20, y: 4)),
-            .lineTo(CGPoint(x: 20, y: 7)),
-            .lineTo(CGPoint(x: 4, y: 7)),
+            .moveTo(CGPoint(x: 12, y: 1)),
+            .curveTo(end: CGPoint(x: 23, y: 12), control1: CGPoint(x: 18.08, y: 1), control2: CGPoint(x: 23, y: 5.92)),
+            .curveTo(end: CGPoint(x: 12, y: 23), control1: CGPoint(x: 23, y: 18.08), control2: CGPoint(x: 18.08, y: 23)),
+            .curveTo(end: CGPoint(x: 1, y: 12), control1: CGPoint(x: 5.92, y: 23), control2: CGPoint(x: 1, y: 18.08)),
+            .curveTo(end: CGPoint(x: 12, y: 1), control1: CGPoint(x: 1, y: 5.92), control2: CGPoint(x: 5.92, y: 1)),
             .close,
-            .moveTo(CGPoint(x: 6, y: 9)),
-            .lineTo(CGPoint(x: 18, y: 9)),
-            .lineTo(CGPoint(x: 18, y: 12)),
-            .lineTo(CGPoint(x: 14, y: 12)),
-            .lineTo(CGPoint(x: 14, y: 21)),
-            .lineTo(CGPoint(x: 10, y: 21)),
-            .lineTo(CGPoint(x: 10, y: 12)),
-            .lineTo(CGPoint(x: 6, y: 12)),
+            .moveTo(CGPoint(x: 12, y: 4)),
+            .curveTo(end: CGPoint(x: 4, y: 12), control1: CGPoint(x: 7.58, y: 4), control2: CGPoint(x: 4, y: 7.58)),
+            .curveTo(end: CGPoint(x: 12, y: 20), control1: CGPoint(x: 4, y: 16.42), control2: CGPoint(x: 7.58, y: 20)),
+            .curveTo(end: CGPoint(x: 20, y: 12), control1: CGPoint(x: 16.42, y: 20), control2: CGPoint(x: 20, y: 16.42)),
+            .curveTo(end: CGPoint(x: 12, y: 4), control1: CGPoint(x: 20, y: 7.58), control2: CGPoint(x: 16.42, y: 4)),
+            .close,
+            .moveTo(CGPoint(x: 7, y: 6)),
+            .lineTo(CGPoint(x: 17, y: 6)),
+            .lineTo(CGPoint(x: 17, y: 8.5)),
+            .lineTo(CGPoint(x: 7, y: 8.5)),
+            .close,
+            .moveTo(CGPoint(x: 6, y: 10)),
+            .lineTo(CGPoint(x: 18, y: 10)),
+            .lineTo(CGPoint(x: 18, y: 12.5)),
+            .lineTo(CGPoint(x: 13.5, y: 12.5)),
+            .lineTo(CGPoint(x: 13.5, y: 19)),
+            .lineTo(CGPoint(x: 10.5, y: 19)),
+            .lineTo(CGPoint(x: 10.5, y: 12.5)),
+            .lineTo(CGPoint(x: 6, y: 12.5)),
             .close,
         ]
     )
 
-    /// Japanese police box or koban.
+    /// Japanese koban, shown as crossed police batons.
     public static let policeBox = MapIconGlyph(
         id: "jp.police_box",
         commands: [
-            .moveTo(CGPoint(x: 10, y: 2)),
-            .lineTo(CGPoint(x: 14, y: 2)),
-            .lineTo(CGPoint(x: 15, y: 6)),
-            .lineTo(CGPoint(x: 20, y: 9)),
-            .lineTo(CGPoint(x: 18, y: 11)),
-            .lineTo(CGPoint(x: 18, y: 21)),
-            .lineTo(CGPoint(x: 6, y: 21)),
-            .lineTo(CGPoint(x: 6, y: 11)),
-            .lineTo(CGPoint(x: 4, y: 9)),
-            .lineTo(CGPoint(x: 9, y: 6)),
-            .close,
-            .moveTo(CGPoint(x: 9, y: 12)),
-            .lineTo(CGPoint(x: 15, y: 12)),
-            .lineTo(CGPoint(x: 15, y: 16)),
-            .lineTo(CGPoint(x: 9, y: 16)),
+            .moveTo(CGPoint(x: 4, y: 2)),
+            .lineTo(CGPoint(x: 12, y: 9.5)),
+            .lineTo(CGPoint(x: 20, y: 2)),
+            .lineTo(CGPoint(x: 22, y: 4.5)),
+            .lineTo(CGPoint(x: 14.5, y: 12)),
+            .lineTo(CGPoint(x: 22, y: 19.5)),
+            .lineTo(CGPoint(x: 20, y: 22)),
+            .lineTo(CGPoint(x: 12, y: 14.5)),
+            .lineTo(CGPoint(x: 4, y: 22)),
+            .lineTo(CGPoint(x: 2, y: 19.5)),
+            .lineTo(CGPoint(x: 9.5, y: 12)),
+            .lineTo(CGPoint(x: 2, y: 4.5)),
             .close,
         ]
     )
