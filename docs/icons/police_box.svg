@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img">
+  <title>Japanese koban, shown as crossed police batons</title>
+  <rect x="0.5" y="0.5" width="31" height="31" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+  <path d="M4 2 L12 9.5 L20 2 L22 4.5 L14.5 12 L22 19.5 L20 22 L12 14.5 L4 22 L2 19.5 L9.5 12 L2 4.5 Z" transform="translate(4 4)" fill="#0f172a"/>
+</svg>

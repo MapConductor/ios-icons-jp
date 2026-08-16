@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img">
+  <title>Shinto shrine</title>
+  <rect x="0.5" y="0.5" width="31" height="31" rx="6" fill="#f8fafc" stroke="#cbd5e1"/>
+  <path d="M3 3 L21 3 L21 6 L3 6 Z M5 8 L19 8 L19 11 L5 11 Z M7 6 L10 6 L9 21 L6 21 Z M14 6 L17 6 L18 21 L15 21 Z" transform="translate(4 4)" fill="#0f172a"/>
+</svg>
